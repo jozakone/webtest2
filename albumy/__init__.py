@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
     :author: Grey Li (李辉)
     :url: http://greyli.com
@@ -120,7 +120,7 @@ def register_commands(app):
 #张佳承部分
     @app.cli.command()
     def init():
-        """Initialize Albumy."""
+        Initialize Albumy.
         click.echo('Initializing the database...')
         db.create_all()
 
